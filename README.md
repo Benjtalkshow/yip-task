@@ -1,2 +1,5 @@
-# yip-task
+# Yip-task
 YipOnline is a fun-loving tech company on a mission to scale African Businesses! Led by a team of tech wizards &amp; engineers who have worked with some of the biggest names in the biz, we're bringing our wealth of experience to tackle African problems and make a real diﬀerence.
+
+## Why i choose my interactive elements
+The chosen interactive elements in my code contribute to an improved user experience by enhancing accessibility and responsiveness. The navbar toggle facilitates easy navigation on smaller screens, the ability to close the navbar on link clicks ensures uninterrupted content viewing, the header's dynamic appearance on scroll provides visual cues, and the accordion toggle offers a cleaner layout for better content organization. Together, these features create a more user-friendly and enjoyable experience.
