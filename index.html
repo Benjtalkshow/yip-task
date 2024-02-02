@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
     rel="stylesheet">
@@ -128,12 +129,16 @@
       <section class="section about" id="about" aria-label="about">
         <div class="container">
 
-          <figure class="about-banner">
+          <figure class="about-banner" data-aos="fade-right"
+          data-aos-offset="500"
+          data-aos-easing="ease-in-sine">
             <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
               class="w-100">
           </figure>
 
-          <div class="about-content">
+          <div class="about-content" data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-easing="ease-in-sine">
 
             <h2 class="h2-sm section-title">We create new things, Design for your success future.</h2>
             <p class="section-text">
@@ -195,7 +200,9 @@
           <ul class="grid-list">
 
             <li>
-              <div class="service-card has-after">
+              <div class="service-card has-after" data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-easing="ease-in-sine">
 
                 <figure class="card-icon">
                   <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
@@ -224,7 +231,9 @@
             </li>
 
             <li>
-              <div class="service-card has-after">
+              <div class="service-card has-after" data-aos="fade-left"
+              data-aos-offset="500"
+              data-aos-easing="ease-in-sine">
 
                 <figure class="card-icon">
                   <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
@@ -254,14 +263,18 @@
             </li>
 
             <li>
-              <div class="service-card has-after">
+              <div class="service-card has-after" data-aos="fade-right"
+              data-aos-offset="500"
+              data-aos-easing="ease-in-sine">
 
                 <figure class="card-icon">
                   <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
                     alt="Professional Content Writer" class="img">
                 </figure>
 
-                <div class="card-content">
+                <div class="card-content" data-aos="fade-right"
+                data-aos-offset="500"
+                data-aos-easing="ease-in-sine">
 
                   <h3 class="h3 card-title">Professional Content Writer</h3>
                   <p class="card-text">Elevate your brand with compelling content.
@@ -276,14 +289,18 @@
             </li>
 
             <li>
-              <div class="service-card has-after">
+              <div class="service-card has-after" data-aos="fade-left"
+              data-aos-offset="500"
+              data-aos-easing="ease-in-sine">
 
                 <figure class="card-icon">
                   <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
                     class="img">
                 </figure>
 
-                <div class="card-content">
+                <div class="card-content" data-aos="fade-left"
+                data-aos-offset="500"
+                data-aos-easing="ease-in-sine">
 
                   <h3 class="h3 card-title">Graphic Design</h3>
                   <p class="card-text">Transform your brand visuals with our Graphic Design services.
@@ -318,7 +335,9 @@
           <p class="section-text text-center">
             Experience significant cost reduction and exceptional UI/UX solutions for your product development with us.
           </p>
-          <ul class="grid-list">
+          <ul class="grid-list" data-aos="fade-right"
+          data-aos-offset="500"
+          data-aos-easing="ease-in-sine">
             <li>
               <div class="features-card">
                 <data class="card-number" value="01">01</data>
@@ -386,11 +405,15 @@
 
       <section class="section faq" aria-label="frequently asked questions">
         <div class="container">
-          <div class="title-wrapper">
+          <div class="title-wrapper" data-aos="fade-right"
+          data-aos-offset="500"
+          data-aos-easing="ease-in-sine">
             <h2 class="h2 section-title">Discover Frequently Asked Questions?</h2>
             <a href="#" class="btn btn-primary">Work Together</a>
           </div>
-          <ul class="grid-list">
+          <ul class="grid-list" data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-easing="ease-in-sine">
             <li>
               <div class="faq-card">
                 <button class="card-action" data-accordion-action>
@@ -662,6 +685,11 @@
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+      <!-- animate on scroll -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
